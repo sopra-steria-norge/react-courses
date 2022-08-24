@@ -1,0 +1,33 @@
+{
+  "name": "react-kurs",
+  "version": "1.0.0",
+  "description": "React kurs",
+  "main": "index.js",
+  "scripts": {
+    "setup": "cd .node && npm install",
+    "00": "node 00-js-concepts/index.js",
+    "01": "cd 01-components && npm start",
+    "01s": "cd 01-components/01-solution && npm start",
+    "02": "cd 02-props && npm start",
+    "02s": "cd 02-props/02-solution && npm start",
+    "03": "cd 03-state && npm start",
+    "03s": "cd 03-state/03-solution && npm start",
+    "04": "cd 04-handlingevents && npm start",
+    "04s": "cd 04-handlingevents/04-solution && npm start",
+    "05": "cd 05-conditionalrendering && npm start",
+    "05s": "cd 05-conditionalrendering/05-solution && npm start",
+    "06": "cd 06-list-keys && npm start",
+    "06s": "cd 06-list-keys/06-solution && npm start",
+    "07": "cd 07-forms && npm start",
+    "07s": "cd 07-forms/07-solution && npm start",
+    "08": "cd 08-useEffect && npm start",
+    "08s": "cd 08-useEffect/08-solution && npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/react-kurs/dag1.git"
+  },
+  "author": "Jørgen H. Stamnes, Amund Tenstad, Joachim Eivindsen",
+  "license": "ISC"
+}

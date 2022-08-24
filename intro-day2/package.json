@@ -1,0 +1,22 @@
+{
+  "name": "react-kurs",
+  "version": "1.0.0",
+  "description": "React-kurs del 2",
+  "main": "index.js",
+  "scripts": {
+    "setup": "cd 00-recap && npm install && cd 00-solution && npm install && cd ../../01-use-effect && npm install && cd ../02-http && npm install && cd ../03-pokemon-project && npm install && cd example-solution && npm install",
+    "00": "cd 00-recap && npm start",
+    "01": "cd 01-use-effect && npm start",
+    "00s": "cd 00-recap/00-solution && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/react-kurs/dag2.git"
+  },
+  "author": "Jørgen H. Stamnes, Amund Tenstad, Joachim Eivindsen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/react-kurs/dag2/issues"
+  },
+  "homepage": "https://github.com/react-kurs/dag2#readme"
+}

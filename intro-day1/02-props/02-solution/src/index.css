@@ -1,0 +1,16 @@
+.avatar {
+    margin: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+.name {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.profilepic {
+    width: 100px;
+    height: auto;
+    border-radius: 1000px;
+}

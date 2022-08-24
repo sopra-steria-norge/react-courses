@@ -1,0 +1,24 @@
+#root > div {
+  display: inline-block;
+}
+
+.avatar {
+  display: inline-block;
+  margin: 20px;
+  text-align: center;
+  user-select: none;
+}
+
+.name {
+  font-size: 20px;
+  font-family: monospace;
+}
+
+.profilepic {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  image-rendering: -moz-crisp-edges;
+}
