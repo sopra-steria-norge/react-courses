@@ -8,8 +8,8 @@ Hei og velkommen til introduksjonskurs i React!
 * [vscode](https://code.visualstudio.com/download) (eller en annen code-editor)
 
 ## Kom igang!
-* `git clone https://github.com/react-kurs/dag1.git`
-* `cd dag1`
+* `git clone https://github.com/sopra-steria-norge/react-courses.git`
+* `cd react-courses/intro-day1`
 * `npm run setup`
 * `code .`
 
