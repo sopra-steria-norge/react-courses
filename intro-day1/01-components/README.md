@@ -41,7 +41,7 @@ Delete the css rule inside `index.css`, while react is running. The website shou
 <br>
 
 #### 📌 A3 - Render something with JSX
-Make changes to `index.js`, so that a JSX element is rendered on screen. Remember to first import React, otherwise JSX won't work.
+Make changes to `index.jsx`, so that a JSX element is rendered on screen. Remember to first import React, otherwise JSX won't work.
 <details><summary>🔑 Solution</summary>
 
 ```jsx
