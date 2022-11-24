@@ -7,7 +7,7 @@ The `useEffect` hook is used to handle side effects. Every time the DOM renders 
 ```js
 const [count, setCount] = useState(0);
 
-  ``useEffect``(() => {
+  useEffect(() => {
     document.title = `You clicked ${count} times`;
   });
 
