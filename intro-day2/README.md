@@ -13,15 +13,15 @@ Hei og velkommen til introduksjonskurs i React del 2!
 * `npm run setup` (installer alt i alle mapper på 3-6 min)
 * `code .` (for å åpne mappen i Visual studio code, hvis kommandoen er aktivert)
 
-> Alternativ kan man bruke Gitpod! [Trykk her for å komme i gang med Gitpod](https://gitpod.io/#https://github.com/react-kurs/dag2)
+> Alternativ kan man bruke Gitpod! [Trykk her for å komme i gang med Gitpod](https://gitpod.io/#https://github.com/sopra-steria-norge/react-courses/tree/main/intro-day2)
 
 ## Intro
 Dette repoet inneholder foiler for teamene `useEffect()` og bruk av `http`-klienter med javaScript sin innebygde HTTP-klient `fetch()`.
-Beskrivelser av temaene ligger i `README.md` filene, som leses best ved å navigere på [github](https://github.com/react-kurs/dag2).
+Beskrivelser av temaene ligger i `README.md` filene, som leses best ved å navigere på [github](https://github.com/sopra-steria-norge/react-courses/tree/main/intro-day2).
 
-Kurset fra [dag1](https://github.com/react-kurs/dag1) kombinert med foilene fra dette repoet gir utgangspunktet for å leke seg med pokemon APIet fra [https://pokeapi.co]. I dette kurset skal vi bygge en **Pokemon Fusion** applikasjon!
+Kurset fra [dag1](https://github.com/sopra-steria-norge/react-courses/tree/main/intro-day1) kombinert med foilene fra dette repoet gir utgangspunktet for å leke seg med pokemon APIet fra [https://pokeapi.co]. I dette kurset skal vi bygge en **Pokemon Fusion** applikasjon!
 
-Hvis det er visse tema som ikke sitter helt, og du gjerne vil ha en liten oppdatering, anbefaler vi å gå på [React sin dokumentasjon](https://reactjs.org/docs/getting-started.html) eller se på temaene fra [forrige del 1](https://github.com/react-kurs/dag1s).
+Hvis det er visse tema som ikke sitter helt, og du gjerne vil ha en liten oppdatering, anbefaler vi å gå på [React sin dokumentasjon](https://reactjs.org/docs/getting-started.html) eller se på temaene fra [forrige del 1](https://github.com/sopra-steria-norge/react-courses/tree/main/intro-day1).
 
 Repoet følger samme mappe-struktur slik som forrige del.
 
