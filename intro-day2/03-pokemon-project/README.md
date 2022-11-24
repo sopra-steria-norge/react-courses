@@ -222,7 +222,6 @@ The `PokemonGallery` will now use the existing component `Avatar.jsx` to display
 The `PokemonGallery` must now have the following functionality:
 
 - Iterate over the `pokemonList` to return a `<Avatar />` components for each pokemon.
-  - Wrap each avatar with a `div`.
 - Each `Avatar` component must recieve the props: `name` and `imageUrl` from each pokemon.
   - The `imageUrl` from the api will be used to get an image of a pokemon. i.e. `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png`.
 
@@ -240,12 +239,11 @@ const PokemonGallery = ({ pokemonList }) => {
     <div className="gallery-container">
       {pokemonList.map(({ name, id, imageUrl }) => {
         return (
-          <div key={id}>
             <Avatar
+              key={id}
               name={name}
               imageUrl={imageUrl}
             />
-          </div>
         );
       })}
     </div>
@@ -276,7 +274,7 @@ export default Avatar;
 
 The helperAPI `getPokemon()` function returns a number of random pokemon. Now we want to add a button to fetch again if we are not happy with the pokemon we recieved. Lets modify the `App.tsx` by doing the following:
 
-- Render a new `<botton>` tag with a `onClick` handler and the text `Refresh`.
+- Render a new `<button>` tag with a `onClick` handler and the text `Refresh`.
 - Move the fetch logic to a seperate function called `handleGetPokemon` to be reused.
 - Make sure the `handleGetPokemon` function is executed both when the application is loaded for the first time and when the random button is clicked.
 
